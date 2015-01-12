@@ -1,0 +1,123 @@
+	.card_style1 {
+		background-color: #AD5472;
+	}
+	.card_style2 {
+		background-color: #C2AE8B;
+	}
+	.card_style3 {
+		background-color: #FCCF65;
+	}
+	.card_style4 {
+		background-color: #FFE5C6;
+	}
+	.card_style5 {
+		background-color: #B7BDC4;
+	}
+	.card_style6 {
+		background-color: #6593FC;
+	}
+	.card_style7 {
+		background-color: #7FC6BC;
+	}
+	.card_style8 {
+		background-color: #FF6F69;
+	}
+	.font_style1 {
+		color: #FFFFFF;
+	}
+	.font_style2 {
+		color: #FF0000;
+	}
+	.font_style3 {
+		color: #FFFF00;
+	}
+	.font_style4 {
+		color: #FF6600;
+	}
+	.font_style5 {
+		color: #000000;
+	}
+	.font_style6 {
+		color: #0000FF;
+	}
+	.font_style7 {
+		color: #006600;
+	}
+	.font_style8 {
+		color: #99CC00;
+	}
+
+	.normal {
+		border-style: dotted;
+    	border-width: 1px;
+    	width: 100px;
+		height: 100px;
+	}
+
+	.common_card_style {
+		font: bold 36px Verdana;
+		text-align: center;
+		border-style: solid;
+    	border-width: 1px;
+    	width: 100px;
+		height: 100px;
+	}
+
+	.common_card_color {
+		color: white;
+	}
+
+	.demo_card_style {
+		font: bold 18px Verdana;
+		text-align: center;
+		border-style: solid;
+    	border-width: 1px;
+    	width: 50px;
+		height: 50px;
+	}
+	.blankStyle {
+		background-color: white;
+	}
+
+	.blankStyle:hover {
+		border-style: solid;
+    	background-color: Gainsboro;
+		border-width: 2px;
+    	width: 98px;
+		height: 98px;
+	}
+
+	.text {
+		font:24px Verdana;
+		text-align: center;
+		margin: 10px;
+	}
+	#gameTable {
+		margin: 0 auto;
+	}
+	#ruleTable {
+		margin: 0 auto;
+	}
+	.next button {
+		color: white;
+		background-color: rgba(28, 184, 65, 0.8);
+		width: 150px;
+		height: 50px;
+		font-size: 22px;
+		border: none;
+		border-radius: 4px;
+	}
+	.next button:hover {
+		cursor: pointer;
+		background-color: rgba(28, 184, 65, 1);
+		margin: 0 auto;
+	}
+	.next {
+		text-align: center;
+		margin-top: 10px;
+	}
+	#congratulation {
+		font:24px Verdana;
+		margin: 0 auto;
+		color: red;
+	}

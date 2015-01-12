@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="main.js"></script>
+	<script type="text/javascript" src="levels.js"></script>
+	<!--<script type="text/javascript" src="game.js" />-->
+</head>
+<body>
+	<div id="rule">
+		<table id="ruleTable">
+			<tr id="rule1">
+				<td>
+					<img width="50px" height="50px" src="check35.png"/>
+				</td>
+				<td id="correctDemo1" >1
+				</td>
+				<td id="correctDemo2" >1
+				</td>
+				<td>
+					<img width="50px" height="50px" src="error.png"/>
+				</td>
+				<td id="incorrectDemo1" class="common_card_color demo_card_style card_style2">2
+				</td>
+				<td id="incorrectDemo2" class="common_card_color demo_card_style card_style3">3
+				</td>
+			</tr>
+		</table>
+		<div id="ruleText" class="text">
+		Match the background and the number.
+		</div>
+	</div>
+	<table id="gameTable">
+	</table>
+	<div class="next">
+		<button id="toNextLevel" style="display: none">Next Level</button>
+	</div>
+	<div id="congratulation" style="display: none">
+		Congratulations! You finished all the levels.
+	</div>
+</body>
+</html>
